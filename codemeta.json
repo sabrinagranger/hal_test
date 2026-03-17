@@ -11,7 +11,22 @@
                 "name": "Department of Testing Science"
             },
             "familyName": "Anonymous",
-            "givenName": "Tester"
+            "givenName": "Nestor"
+        },
+        {
+            "id": "_:author_2",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "University of Wonderland"
+            },
+            "familyName": "Doe",
+            "givenName": "Jane"
+        },
+        {
+            "type": "schema:Role",
+            "schema:author": "_:author_2",
+            "schema:roleName": "Tester"
         }
     ],
     "codeRepository": "https://github.com/sabrinagranger/hal_test",
